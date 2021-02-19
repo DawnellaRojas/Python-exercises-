@@ -11,7 +11,7 @@ def arc(t,radius,angle):
     circumference = 2.0*math.pi*radius
     frac = angle/360.0
     arclength = circumference*frac
-    n = 50
+    n = 30
     length = arclength/n
     turnAng = angle/n
     for i in range(n):
