@@ -1,11 +1,9 @@
-'''As an exercise, write a function is_between(x, y, z)
-that returns True if x ≤ y ≤ z or False otherwise.'''
-
-def is_between(x, y, z):
-    if x < y < z:
-        return True
+def example_b(m):
+    time =  m *  60
+        if time < 600:
+        return 0
     else:
-        return False
 
-
-is_between(1, 2, 3)
+    result = print('you are late to go to work')
+    print(result)
+    return result
