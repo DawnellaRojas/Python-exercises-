@@ -1,19 +1,9 @@
-'''As an exercise, rewrite the function print_n from Section 5.8 using iteration instead of
-recursion'''
+'''As an exercise, write a function that takes a string as an argument and displays the lettersbackward, one per line.'''
 
-# Exercise 5.8
+index = 0
+fruit = 'banana'
 
-'''def print_n(s, n):
-    if n <= 0:
-        return
-    print(s)
-    print_n(s, n-1)'''
-
-
-
-def countdown(s,n):
-    while n > 0:
-        print(s)
-        n = n - 1
-
-countdown(3,6)
+while index < len(fruit):
+    letter = fruit[index]
+    print(letter)
+    index = index + 1
